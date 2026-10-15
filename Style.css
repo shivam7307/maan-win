@@ -1,0 +1,281 @@
+<style>
+.mg-page{
+  font-family:Arial,Helvetica,sans-serif;
+  color:#344256;
+  background:#fff;
+  width:100%;
+  margin:0 auto;
+  line-height:1.7;
+}
+.mg-page *{box-sizing:border-box}
+.mg-top{
+  display:flex;justify-content:space-between;gap:12px;
+  padding:12px 5%;border-bottom:1px solid #ddd;
+  background:#fff;
+}
+.mg-top a{
+  flex:1;text-align:center;background:#ef2025;
+  color:#fff;text-decoration:none;padding:11px 5px;
+  border-radius:6px;font-size:16px;font-weight:bold;
+}
+.mg-nav{
+  display:flex;justify-content:space-between;
+  align-items:center;padding:25px 5%;
+  border-bottom:1px solid #d5dbe2;
+}
+.mg-nav strong{font-size:27px;color:#202c40}
+.mg-menu{font-size:28px;color:#0875d1}
+.mg-content{padding:0 4%;max-width:1050px;margin:auto}
+.mg-content h1{
+  font-size:clamp(30px,6vw,44px);color:#202c40;
+  line-height:1.25;margin:0 0 35px;
+}
+.mg-banner{
+  max-width:590px;width:100%;margin:0 auto 27px;
+  min-height:210px;border-radius:4px;
+  background:linear-gradient(135deg,#160b08,#6e180c,#211008);
+  display:flex;flex-direction:column;align-items:center;
+  justify-content:center;text-align:center;color:#ffd56b;
+  padding:20px;border:2px solid #c58b30;
+}
+.mg-banner .mg-crown{font-size:35px}
+.mg-banner h2{
+  font-size:clamp(34px,8vw,52px);line-height:1;
+  margin:8px 0;color:#ffcf55;
+  text-shadow:2px 3px #5e2009;
+}
+.mg-banner p{margin:8px 0;color:#fff;font-weight:bold}
+.mg-games{display:flex;flex-wrap:wrap;justify-content:center;gap:8px}
+.mg-games span{
+  border:1px solid #e9b448;border-radius:6px;
+  padding:5px 9px;color:#fff;background:#4b190c;
+  font-size:12px;font-weight:bold;
+}
+.mg-register{
+  display:block;width:fit-content;max-width:100%;
+  margin:0 auto 40px;background:#ef2025;color:white;
+  text-decoration:none;text-align:center;
+  padding:12px 18px;border-radius:14px;
+  font-size:clamp(17px,4vw,25px);font-weight:bold;
+  box-shadow:0 3px 5px #0002;
+}
+.mg-table-wrap{overflow-x:auto;margin:35px 0 65px}
+.mg-table{
+  width:100%;border-collapse:collapse;
+  min-width:320px;font-size:clamp(14px,3.3vw,22px);
+  line-height:1.5;
+}
+.mg-table td{
+  border:1.5px solid #445267;
+  padding:15px 7px;text-align:center;
+  font-weight:bold;overflow-wrap:anywhere;
+}
+.mg-table td:first-child{width:50%}
+.mg-table a{color:#0875d1}
+.mg-article{margin:0 0 45px;font-size:clamp(17px,3.6vw,22px)}
+.mg-article h2{
+  font-size:clamp(27px,5vw,38px);
+  text-align:center;color:#202c40;margin:35px 0;
+  line-height:1.3;
+}
+.mg-article h3{font-size:22px;margin-top:35px}
+.mg-article p{line-height:1.9;margin:22px 0}
+.mg-article li{margin:6px 0;line-height:1.7}
+.mg-footer{
+  background:#f5f7fa;text-align:center;
+  padding:25px 15px;font-size:14px;
+  border-top:1px solid #ddd;
+}
+.mg-footer a{color:#0875d1;margin:0 7px}
+@media(max-width:480px){
+  .mg-top{padding:10px 4%}
+  .mg-top a{font-size:14px;padding:10px 3px}
+  .mg-nav{padding:22px 5%}
+  .mg-nav strong{font-size:25px}
+  .mg-content{padding:0 4.5%}
+  .mg-banner{min-height:195px}
+  .mg-table td{padding:13px 5px}
+}
+</style>
+
+<div class="mg-page">
+
+  <!-- TOP LOGIN AND REGISTER BAR -->
+  <div class="mg-top">
+    <a href="https://maanwin34.com/register?inviteCode=YF7XWBN&from=web"
+       target="_blank" rel="noopener noreferrer">LOGIN</a>
+    <a href="https://maanwin34.com/register?inviteCode=YF7XWBN&from=web"
+       target="_blank" rel="noopener noreferrer">REGISTER</a>
+  </div>
+
+  <!-- WEBSITE HEADER -->
+  <div class="mg-nav">
+    <strong>Maan Game</strong>
+    <span class="mg-menu">☰</span>
+  </div>
+
+  <main class="mg-content">
+
+    <h1>Maan Game</h1>
+
+    <!-- BANNER: Replace this section with your own banner image if available -->
+    <div class="mg-banner">
+      <div class="mg-crown">♛</div>
+      <h2>MAAN GAME</h2>
+      <p>EXPLORE THE GAMING PLATFORM</p>
+      <div class="mg-games">
+        <span>WINGO</span>
+        <span>AVIATOR</span>
+        <span>LOTTERY</span>
+        <span>SLOTS</span>
+        <span>CASINO</span>
+        <span>FISHING</span>
+      </div>
+    </div>
+
+    <a class="mg-register"
+       href="https://maanwin34.com/register?inviteCode=YF7XWBN&from=web"
+       target="_blank" rel="noopener noreferrer">
+      Register On Maan Game
+    </a>
+
+    <!-- INFORMATION TABLE -->
+    <div class="mg-table-wrap">
+      <table class="mg-table">
+        <tbody>
+          <tr>
+            <td>App Name</td>
+            <td><a href="https://maanwin34.com/register?inviteCode=YF7XWBN&from=web">Maan Game</a></td>
+          </tr>
+          <tr>
+            <td>Total Games</td>
+            <td>Check Official Platform</td>
+          </tr>
+          <tr>
+            <td>App Size</td>
+            <td>Check Official App</td>
+          </tr>
+          <tr>
+            <td>Invite Code</td>
+            <td>FJ8FKYN</td>
+          </tr>
+          <tr>
+            <td>Android Support</td>
+            <td>Check Device Compatibility</td>
+          </tr>
+          <tr>
+            <td>Website</td>
+            <td>
+              <a href="https://maanwin34.com/register?inviteCode=YF7XWBN&from=web"
+                 target="_blank" rel="noopener noreferrer">Visit Website</a>
+            </td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+
+    <!-- PAGE CONTENT -->
+    <section class="mg-article">
+      <p>
+        <strong>Maan Game</strong> is presented here in a
+        mobile-friendly layout to help visitors explore the
+        linked platform, find registration information and
+        review account-related options.
+      </p>
+
+      <h2>What Is Maan Game?</h2>
+
+      <p>
+        Visitors can check the official platform for its
+        available games, account features, terms and
+        participation requirements. Actual features may
+        vary depending on availability and eligibility.
+      </p>
+
+      <h3>Some of the main areas may include:</h3>
+
+      <ul>
+        <li>Available game categories</li>
+        <li>Mobile-friendly access</li>
+        <li>Login and registration information</li>
+        <li>Game results and activity, where available</li>
+        <li>Account and wallet options, where available</li>
+        <li>Platform terms and conditions</li>
+      </ul>
+
+      <p>
+        The exact features and services should be verified
+        on the official platform before use.
+      </p>
+
+      <h2>Maan Game Register</h2>
+
+      <p>
+        New visitors can open the linked registration page
+        to review the account creation process and the
+        information required.
+      </p>
+
+      <h3>Registration steps:</h3>
+
+      <ul>
+        <li>Open the registration page using the button above.</li>
+        <li>Review the platform's eligibility requirements.</li>
+        <li>Enter the requested details on the official page.</li>
+        <li>Use an invitation code only if requested.</li>
+        <li>Check the information before submitting.</li>
+        <li>Follow the official registration instructions.</li>
+      </ul>
+
+      <a class="mg-register"
+         href="https://maanwin34.com/register?inviteCode=YF7XWBN&from=web"
+         target="_blank" rel="noopener noreferrer">
+        Register Now →
+      </a>
+
+      <h2>Maan Game Login</h2>
+
+      <p>
+        Existing account holders can use the official
+        platform's login page, subject to its current
+        access and account requirements.
+      </p>
+
+      <h3>To log in:</h3>
+
+      <ul>
+        <li>Open the official platform.</li>
+        <li>Choose its login option, if available.</li>
+        <li>Enter your account details privately.</li>
+        <li>Follow the instructions shown on the page.</li>
+      </ul>
+
+      <h2>Maan Game Interface</h2>
+
+      <p>
+        A clear interface can help visitors locate available
+        sections and understand how the platform is organized.
+        Refer to the official site for current functionality.
+      </p>
+
+      <p>
+        <strong>Important:</strong> Participation in real-money
+        games can involve financial loss. Check local laws,
+        age restrictions, fees and withdrawal terms. No
+        winnings or returns are guaranteed.
+      </p>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="mg-footer">
+    <p><strong>Maan Game</strong> — Landing Page</p>
+    <p>
+      <a href="https://maanwin34.com/register?inviteCode=YF7XWBN&from=web"
+         target="_blank" rel="noopener noreferrer">Visit Platform</a>
+    </p>
+    <p>18+ only where legally permitted. Please play responsibly.</p>
+    <p>Verify all platform details before publishing.</p>
+  </footer>
+
+</div>
